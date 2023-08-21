@@ -23,7 +23,7 @@ boundaryField
     burner
     {
         type            flowRateInletVelocity;
-        massFlowRate    constant 0.0001;  // (kg/s) - about 5 kW (DHc_CH4 = 50.031207 MJ/kg)
+        massFlowRate    constant 0.0006;  // (kg/s) - about 30 kW (DHc_CH4 = 50.031207 MJ/kg)
         value           uniform (0 0 0);
     }
 
